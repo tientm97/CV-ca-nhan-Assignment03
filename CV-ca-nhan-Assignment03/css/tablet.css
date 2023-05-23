@@ -1,0 +1,112 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .topnav a {
+    /* float: left; */
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline-block;
+  }
+  .img-item {
+    display: none;
+  }
+  .centered {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .navbar a {
+    margin-left: 30px;
+  }
+  .nav {
+    padding-left: 0;
+  }
+  .nav1,
+  .nav2,
+  .nav4,
+  .nav5 {
+    min-width: 140px;
+  }
+  .emty {
+    width: 20px;
+  }
+  .thongtin {
+    height: 450px;
+  }
+  .container2 {
+    display: flex;
+  }
+
+  .container4 {
+    display: flex;
+  }
+  .duan1 {
+    flex: 1 1 30%;
+  }
+  .duan2 {
+    flex: 1 1 30%;
+  }
+  .duan3 {
+    flex: 1 1 30%;
+  }
+  .cvcanhan {
+    display: inline-block;
+  }
+  .cvcanhan-tablet {
+    display: flex;
+  }
+  .giaithuong1,
+  .giaithuong2,
+  .giaithuong3 {
+    display: block;
+  }
+  .giaithuong3 {
+    border-bottom: none;
+  }
+
+  .cvcanhan {
+    display: inline-flex;
+  }
+
+  .year {
+    background-color: #199cdb;
+    border-radius: 18%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+  }
+
+  .infomation {
+    display: block;
+    padding: 0;
+  }
+  .if-duan {
+    padding-left: 2px;
+  }
+  .icon-facebook-circled,
+  .icon-linkedin-circled,
+  .icon-github-circled {
+    font-size: 2.5em;
+  }
+  /*  css phần nâng cao*/
+  .digital-icon {
+    text-align: center;
+  }
+  .border-cv {
+    border-right: none;
+    border-bottom: 15px solid blue;
+  }
+}

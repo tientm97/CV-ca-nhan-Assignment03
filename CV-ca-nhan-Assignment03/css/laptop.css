@@ -1,0 +1,283 @@
+@media screen and (min-width: 993px) {
+}
+* {
+  margin: 0px;
+}
+.bg-grey {
+  background: #f7f7f7;
+}
+.navbar {
+  margin: 10px;
+  text-align: center;
+}
+.nav {
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  padding-left: 50px;
+}
+.nav2,
+.nav5 {
+  border-left: none;
+}
+.navbar a {
+  text-decoration: none;
+  color: gray;
+}
+.if-avata {
+  position: absolute;
+  display: inline-block;
+  top: 20%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+.avata1 {
+  width: 210px;
+  height: 220px;
+  border-radius: 70%;
+  padding: 10px;
+  background-color: #ffff;
+}
+.icon-user,
+.icon-doc-text-in,
+.icon-mail-alt,
+.icon-star-1 {
+  background-color: #f7f7f7;
+  color: blue;
+}
+.centered {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+/* css phần thông tin */
+.icon-s {
+  padding: 20px 0;
+}
+.thongtin {
+  padding: 50px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  height: 350px;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+.muctieu {
+  flex: 1 1 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+.canhan {
+  flex: 1 1 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+.padding {
+  padding: 0px;
+}
+
+/* css phần info */
+.content::before {
+  content: "";
+  position: absolute;
+  background-color: #0abde3;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  font-size: 1.5em;
+  margin-left: -15px;
+  margin-top: 7px;
+}
+.info {
+  border: 1px solid gray;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  height: 400px;
+  margin-bottom: 25px;
+}
+.info-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-title {
+  flex: 1 1 75%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.ic-pencil,
+.ic-telescope,
+.ic-mic,
+.ic-tools-2,
+.ic-toolbox {
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+.hientai {
+  background-color: #199cdb;
+  border-radius: 30%;
+  display: inline-block;
+  padding: 5px 11px 5px 11px;
+  color: white;
+}
+.center {
+  border: 2px solid #0abde3;
+  color: #0abde3;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-grid;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+}
+.list {
+  display: flex;
+}
+.list1 {
+  margin: 10px;
+}
+
+.lever {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.section-title1 {
+  padding: 30px 0 25px 0px;
+}
+.giaithuong {
+  justify-content: center;
+  align-items: flex-start;
+  padding: 70px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  display: inline-flex;
+  border-bottom: 0.5px solid rgb(235, 173, 97);
+}
+.image {
+  height: 100px;
+  width: 200px;
+  margin-right: 15px;
+}
+.tengiaithuong {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.giaithuong1 {
+  justify-content: center;
+  align-items: center;
+  border-right: 0.5px solid rgb(235, 173, 97);
+}
+.giaithuong2 {
+  justify-content: center;
+  align-items: center;
+}
+
+.duan {
+  border: 1px solid gray;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.images {
+  height: auto;
+  width: 100%;
+}
+h3 {
+  padding-left: 15px;
+}
+.cvcanhan {
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+.cvcanhan-tablet {
+  display: flex;
+}
+.year {
+  background-color: #199cdb;
+  border-radius: 18%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 10px;
+}
+.if-duan {
+  font-size: 20px;
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  padding-left: 15px;
+}
+.motaduan {
+  font-size: 20px;
+  display: inline-block;
+  width: 60%;
+}
+.lienhe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+  margin-top: 20px;
+}
+.link a {
+  padding-right: 40px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.icon-facebook-circled,
+.icon-linkedin-circled,
+.icon-github-circled {
+  font-size: 2.5em;
+}
+/* css phần nâng cao */
+.title-cv {
+  color: blue;
+  border-bottom: 1px solid grey;
+}
+.icon-timeline {
+  display: flex;
+  color: white;
+  background-color: #9e88ff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  justify-content: center;
+  align-items: center;
+}
+.digital-cv {
+  border: 15px solid blue;
+}
+.border-cv {
+  border-right: 15px solid blue;
+}
+.border-cv-row {
+  border-bottom: 15px solid blue;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.content-nangcao {
+  border-bottom: 1px dotted rgb(98, 165, 189);
+}
